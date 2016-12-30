@@ -1,11 +1,112 @@
 {
   "require": {
-    "acquia/demo_framework": "dev-8.x-obio"
+    "acquia/demo-framework": "dev-8.x-obio"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "repositories": [
     {
       "type": "vcs",
       "url": "git@github.com:acquia/demo_framework.git"
+    },
+    {   "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/DevinCarlson/composer-patches"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/acquia/lift-sdk-php"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "desandro/masonry",
+        "version": "3.3.1",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/desandro/masonry/archive/v3.3.1.zip",
+          "type": "zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "desandro/imagesloaded",
+        "version": "3.1.8",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/desandro/imagesloaded/archive/v3.1.8.zip",
+          "type": "zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "enyo/dropzone",
+        "version": "4.2.0",
+        "type": "drupal-library",
+        "source": {
+          "url": "https://github.com/enyo/dropzone",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "leaflet/leaflet",
+        "version": "v0.7.7",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/Leaflet/Leaflet/archive/v0.7.7.zip",
+          "type": "zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mjolnic/fontawesome-iconpicker",
+        "version": "1.2.0",
+        "type": "drupal-library",
+        "source": {
+          "url": "https://github.com/mjolnic/fontawesome-iconpicker",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "kenwheeler/slick",
+        "version": "1.5.0",
+        "type": "drupal-library",
+        "source": {
+          "url": "https://github.com/kenwheeler/slick",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "lite",
+        "version": "dev-master",
+        "type": "drupal-library",
+        "source": {
+          "url": "https://github.com/loopindex/ckeditor-track-changes",
+          "type": "git",
+          "reference": "origin/master"
+        }
+      }
     }
   ]
 }
