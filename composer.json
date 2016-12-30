@@ -1,6 +1,6 @@
 {
   "require": {
-    "acquia/demo_framework": "8.x-obio"
+    "acquia/demo_framework": "dev-8.x-obio"
   },
   "repositories": [
     {
